@@ -1,0 +1,11 @@
+16 x on/on toggle switch	# instruction input
+16 x LED (red)			# instruction view
+1  x LED (green)		# power 
+1  x button			# go to next instruction 
+1  x OP-amp (741)		# clock
+8  x 74HC273			# registers
+2  x 74HC283			# 8 bits full adder (2 x 4 bits)
+2  x 74HC86			# 8 XOR gates (for inverting bits in SUB)
+9  x 74HC08			# 14 AND gates for shifter + 22 AND for control unit
+3  x 74HC32			# 6 OR gates for shifter + 3 OR for control unit
+1  x 74HC05			# 4 NOT gates for control unit

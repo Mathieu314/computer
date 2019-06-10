@@ -1,0 +1,18 @@
+.data segment
+.text segment
+
+Correspondance codeop <=> pattern de code
+
+ CODEOP | pattern C
+--------+--------------
+  ADD   | a = b + c
+  SUB   | a = b - c
+  SET   | a = 5
+  LDB   | 
+  SDB   |
+  SLL   | 
+  SLR   |
+  BEQ   | if (a == b)
+  B     | else
+  OUT   | gpioOut(var)
+  IN    | gpioIn(var)

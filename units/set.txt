@@ -1,0 +1,15 @@
+*******
+* SET *
+*******
+		    SET
+		     |
+		    1/
+		     |
+		_____v_____
+	   8	|	  |   8
+      I ---/--->|   SET   |---/---> r1
+		|_________|
+
+
+adr of r1 output register is get from the fist register field
+the immediate value of 1 byte is get from the two other register fields

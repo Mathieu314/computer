@@ -1,0 +1,38 @@
+**********************************
+*      ISA (CodeOp : 4 bits)     *
+**********************************
+- ADDition (R : r1, r2, r3)			-->	Ok
+- SUBstraction (R : r1, r2, r3)			-->	Ok
+- SET value (I : r1, immediate 8b)		-->	Ok
+- LDB (load byte) data from RAM (I : r1, adr)
+- STB (store byte) data into RAM (I : r1, adr)
+- SLL (R : r1)					-->	Ok
+- SLR (R : r1)					-->	Ok
+- BEQ (I : r1, r2, label)
+- B (I : label) (for addresses higher than 0xF)
+- OUT data to GPIO (R : r1, r2)
+- IN  (input GPIO) data from GPIO (R : r1, r2)
+
+
+***********************
+*      Registers      *
+***********************
+- 8 registers					-->	Ok
+- each register is 8 bits
+
+r0 :	[ 7 ][ 6 ][ 5 ][ 4 ][ 3 ][ 2 ][ 1 ][ 0 ]
+r1 :	[ 7 ][ 6 ][ 5 ][ 4 ][ 3 ][ 2 ][ 1 ][ 0 ]
+r2 :	[ 7 ][ 6 ][ 5 ][ 4 ][ 3 ][ 2 ][ 1 ][ 0 ]
+r3 :	[ 7 ][ 6 ][ 5 ][ 4 ][ 3 ][ 2 ][ 1 ][ 0 ]
+r4 :	[ 7 ][ 6 ][ 5 ][ 4 ][ 3 ][ 2 ][ 1 ][ 0 ]
+r5 :	[ 7 ][ 6 ][ 5 ][ 4 ][ 3 ][ 2 ][ 1 ][ 0 ]
+r6 :	[ 7 ][ 6 ][ 5 ][ 4 ][ 3 ][ 2 ][ 1 ][ 0 ]
+r7 :	[ 7 ][ 6 ][ 5 ][ 4 ][ 3 ][ 2 ][ 1 ][ 0 ]
+
+
+*****************
+*      RAM      *
+*****************
+
+
+*****************
